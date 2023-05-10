@@ -1,0 +1,11 @@
+.text-box {
+  background: white;
+  color: black;
+  padding: 15px;
+  overflow: scroll;
+  border: 1px solid #ccc;
+  resize: none;
+  height: 75%;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
