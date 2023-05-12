@@ -87,14 +87,14 @@ export default function Input({formData, setFormData}) {
     
   return (
     <div className = "input-file">
-        <h1 className = "input-description">Shanda is a solution for podcasters that uses machine learning to automate podcast zoom tasks.</h1>
+        <h1 className = "input-description">Shanda is a solution for podcasters that uses machine learning to automate podcast creation tasks.</h1>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZbXMHF-9UuY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>        <h1>Get started for free!</h1>
         <label class="vtt-bttn">
           <input onChange={handleSubmit} type="file"/>
           Custom Upload
         </label>
         {/* <button>example button that sets state using setState, this will update the text in real time</button> */}
-        {gotResponse ? <Link className = "input-button" to={{ pathname: '/text' }}>Submit</Link>: null}
+        {gotResponse ? <Link className = "input-button" to={{ pathname: '/text' }}>Review</Link>: null}
     </div>
   )
 }
