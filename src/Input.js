@@ -87,9 +87,8 @@ export default function Input({formData, setFormData}) {
     
   return (
     <div className = "input-file">
-        <h1 className = "input-description">Shanda is a solution for podcasters or potential podcasters that uses machine learning to automatically edit zoom recordings into a fully edited podcast with social media content to grow your audience.</h1>
-        <iframe className = "video" width="560" height="315" src="https://www.youtube.com/embed/QdwQhFlPL70" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <h1>Get started for free!</h1>
+        <h1 className = "input-description">Shanda is a solution for podcasters that uses machine learning to automate podcast zoom tasks.</h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZbXMHF-9UuY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>        <h1>Get started for free!</h1>
         <label class="vtt-bttn">
           <input onChange={handleSubmit} type="file"/>
           Custom Upload
